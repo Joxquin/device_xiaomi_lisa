@@ -197,6 +197,9 @@ ro.vendor.perf.scroll_opt=0
 
 # Radio
 keyguard.no_require_sim=true
+persist.dbg.volte_avail_ovr=1
+persist.dbg.vt_avail_ovr=1
+persist.dbg.wfc_avail_ovr=1
 persist.radio.multisim.config=dsds
 persist.vendor.data.iwlan.enable=true
 persist.vendor.data.mode=concurrent
