@@ -138,6 +138,7 @@ debug.hwui.renderer=skiagl
 debug.mdpcomp.logs=0
 debug.renderengine.backend=skiaglthreaded
 debug.sf.disable_client_composition_cache=1
+debug.sf.phase_offset_threshold_for_next_vsync_ns=6100000
 debug.sf.enable_advanced_sf_phase_offset=1
 debug.sf.high_fps_early_gl_phase_offset_ns=-2000000
 debug.sf.high_fps_early_phase_offset_ns=-4000000
