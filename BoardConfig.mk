@@ -124,6 +124,7 @@ BOARD_KERNEL_CMDLINE += androidboot.console=ttyMSM0 \
 			loop.max_part=7 \
 			msm_rtb.filter=0x237 \
 			service_locator.enable=1 \
+                        kpti=off \
 			swiotlb=noforce \
 			pcie_ports=compat \
 			iptable_raw.raw_before_defrag=1 \
