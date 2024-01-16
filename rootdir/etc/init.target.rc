@@ -100,9 +100,6 @@ on fs
     chmod 0660 /dev/tfa_rpc
     chmod 0660 /dev/tfa_control
     chmod 0666 /dev/xlog
-    # Test
-    chown system system /sys/devices/platform/soc/ae00000.qcom,mdss_mdp/drm/card0/sde-crtc-0/early_wakeup
-    chmod 0220 /sys/devices/platform/soc/ae00000.qcom,mdss_mdp/drm/card0/sde-crtc-0/early_wakeup
 
 on fs && property:ro.boot.product.vendor.sku=lahaina
     mkdir /mnt/vendor/spunvm 0660 system system
