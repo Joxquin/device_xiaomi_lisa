@@ -27,6 +27,7 @@ import android.view.Display.HdrCapabilities;
 
 import org.lineageos.settings.dirac.DiracUtils;
 import org.lineageos.settings.doze.PocketService;
+import org.lineageos.settings.refreshrate.RefreshUtils;
 import org.lineageos.settings.thermal.ThermalUtils;
 
 public class BootCompletedReceiver extends BroadcastReceiver {
@@ -39,6 +40,9 @@ public class BootCompletedReceiver extends BroadcastReceiver {
 
         // Dirac
         DiracUtils.onBootCompleted(context);
+
+        // Refreshrate
+        RefreshUtils.startService(context);
 
         // Thermal Profiles
         ThermalUtils.startService(context);
