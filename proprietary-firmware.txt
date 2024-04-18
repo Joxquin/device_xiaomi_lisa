@@ -10,7 +10,7 @@ featenabler.img;AB
 hyp.img;AB
 imagefv.img;AB
 keymaster.img;AB
-modem.img;AB
+modem.img;AB|cde68180ff13fe863d57749333d4b18c4a9eb520
 qupfw.img;AB
 shrm.img;AB
 tz.img;AB
